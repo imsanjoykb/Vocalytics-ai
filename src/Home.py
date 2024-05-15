@@ -22,7 +22,7 @@ def home():
     markdown_content = f"""
     <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{image_base64}" alt="Image" style="height: {image_height}px; width: {image_width}px; margin-right: 10px;">
-        <h5>CANDILYTICS | Intelligence Candidacy Analytics</h5>
+        <h5>VOCALYTICS | Intelligence Speech Transformation</h5>
         <a href="https://vocalytics.pro" target="_self"><button style="background-color: #FF6404; color: #0E0022; border-radius: 10px; padding: 8px 16px; border: none;"><b>Access Beta Version<b>🚀</button></a>
     </div>
     """
@@ -34,7 +34,7 @@ def home():
     #Description
     st.markdown(
         """ 
-        <h5 style='text-align:center;'>CANDILYTICS is an advanced application that leverages cutting-edge technologies to provide intelligent and faster Candendacy solutions to reduce gap in between Company, Candidate, Hiring & Candidacy Interview Process .</h5>
+        <h5 style='text-align:center;'>VOCALYTICS is the cutting-edge technologies with solutions of Intelligence Audio and Speech Transformation, Speech synthesis, voice conversion, audio processing, transcription and voice biometrics.</h5>
         """,
         unsafe_allow_html=True)
 
